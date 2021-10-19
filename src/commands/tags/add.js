@@ -2,7 +2,7 @@ const { Command } = require("visa2discord");
 const db = require('quick.db')
 const { MessageEmbed } = require("discord.js")
 
-module.exports = class AddCommand extends Command {
+module.exports = class AddCommand extends Command {           
   constructor(client) {
     super(client, {
       name: "add",
